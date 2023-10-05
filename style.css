@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: 'Rufina', 'sans-serif';
+}
+
+.main{
+    padding-top : 65px;
+    padding-right : 90px;
+    padding-left : 90px;
+    padding-bottom : 72px;
+    background-image : url('images/dog_background.png')
+}
+
+.header{
+    width : 85%;
+    height : 80vh;
+    padding : 0 5%;
+    margin-left : 70px;
+    background : rgb(250, 237, 220);
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         border-radius: 12px;
+}
+
+
+
+nav {
+    width : 100%;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0;
+    margin: 0;
+    border-bottom : 2px solid darkblue;
+}
+nav ul{
+    /* width : 100%;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0;
+    margin: 0; */
+    list-style : none;
+    display : flex;
+    margin : 0;
+    padding : 0;
+    margin-right: 260px;
+}
+
+nav ul li {
+   /*  display : inline-block;
+    list-style: none; */
+    margin-right: 20px;
+    margin-top : 20px;
+    color : darkblue;
+    text-transform : uppercase;
+}
+
+
+.logo img{
+  height : 50px;
+  padding : 10px;
+  margin-top : 20px;
+}
+
+.icon img {
+    height : 20px;
+    margin-left : 1px;
+    margin-top : 20px;
+    margin-top: 20%;
+}
+
+ /* .icon .btn{
+    align-items : center;
+    padding : 30px 30px;
+    border : 0;
+    outline : 0;
+    width : 90%;
+    height : 60%;
+    border-radius : 20px;
+    background : royalblue;
+    color : white;
+    font-weight : 1000;
+    margin-left : 99%;
+    margin-top: -35%;
+    font-size: 40px;
+}  */
+
+.button {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-left: 101%;
+    /* margin-bottom: 100px; */
+    margin-top: -11%;
+    padding: 19px 60px 34px 38px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+
+.text-box h1{
+    margin-top : 110px;
+    max-width : 600px;
+    padding : 20px ;
+    padding-bottom : 10px;
+    color : darkblue;
+}
+
+.text-box p{
+    max-width : 600px;
+    padding : 1px 20px;
+    color : rgb(167, 167, 241);
+}
+
+.search-box{
+    display : flex;
+    align-items : center;
+    padding : 10px;
+    border-radius : 5px;
+    margin-top : 30px;
+}
+
+.search-box input{
+    /* padding : 8px 100px 8px 30px;
+    margin-right : 1px;
+    font-size : 18px;
+    border : none;
+    border-radius : 20px;
+    border : 1px solid grey; 
+    margin-top : 20px;
+    margin-left : 10px; */
+    border-radius : 20px;
+    outline : 0;
+    width : 40%;
+    font-size : 16px;
+    padding-left : 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+.search-box input::placeholder{
+   color : darkblue;
+}
+
+/* .search-box img{
+  height : 25px;
+
+} */
+
+.search-box i{
+    margin-left : -4%;
+}
+
+.search-box button{
+ background-color : orangered;
+ border-radius : 20px;
+ width : 15%;
+ color : white;
+ border : none;
+ height : 40px;
+ margin-left : 20px;
+}
+
+
+.image-box img{
+    position: absolute;
+    display : block;
+    width: 200px;
+    margin-top: 100px;
+    margin-bottom: 1000px;
+    margin-left : 550px;
+    margin-right: 500px;
+    border-radius : 100px;
+}
